@@ -1,5 +1,110 @@
-/*radi preglednosti, ispraviti kasnije*/
-img {
-    width: 50px;
-    height: 50px;
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic:wght@800&display=swap');
+
+html, body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color:#EEE;
+    font-family: 'Dosis', sans-serif;
+    color:rgb(78, 78, 78);
 }
+
+header {
+    background-color:black;
+    width: 100%;
+    padding: 2px 0px 2px 0px;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+}
+
+h3 {
+    font-size: 1.7em;
+    font-family: 'Dosis', sans-serif;
+    color:rgb(48, 47, 47);
+}
+
+h4 {
+    font-size: 1.3em;
+    font-family: 'Bebas Neue', cursive;
+    border-bottom: 2px solid rgb(251, 255, 0);
+    border-top: 2px solid rgb(251, 255, 0);
+    padding:10px 135px;
+    color: black;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    flex-wrap: nowrap;
+    max-height: 600px;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.item-1,.item-2,.item-3 {
+    flex:1 1 100%;
+    flex-direction: column;
+    padding: 30px 0px 30px 0px;    
+}
+
+p {
+    padding-bottom: 20px;
+    text-align: center;
+    border-top: 2px solid rgba(251, 255, 0, 0.247);
+    padding-top: 10px;
+    color:rgb(48, 47, 47);
+}
+
+.item-1 {
+    background-color: rgba(202, 202, 202, 0.5);
+    height: 490px;
+    margin-top: 5px;
+    align-self: center;
+}
+
+
+.item-2 {
+    background-color: rgb(173, 180, 140);
+    height: 500px; 
+}
+
+.item-3 {
+    background-color:rgba(202, 202, 202, 0.5);
+    height: 490px;
+    margin-top: 5px;
+}
+
+li, ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 25px 0px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+
+footer {
+    background-color:black;
+    color: white;
+    height: 25px;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+
+/*kako centrirati container?
