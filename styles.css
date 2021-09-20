@@ -80,7 +80,8 @@ p {
 
 
 .item-2 {
-    background-color: rgb(173, 180, 140);
+    /*background-color: rgb(173, 180, 140);*/
+    background-color: #D1D100;
     height: 500px; 
 }
 
